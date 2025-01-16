@@ -1,2 +1,13 @@
+button{
+            background-color: black; /* Corrected property name */
+           color: white; /* Corrected property name */
+            border-radius: 5px;
+            border: none;
+            
+        }
 
-/* Your CSS Code here. */
+        button:hover {
+            background-color: yellow; /* Corrected pseudo-class syntax */
+            color: black; /* Corrected property name */
+            border-radius: 30px;
+        }
